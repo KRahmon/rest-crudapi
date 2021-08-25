@@ -21,14 +21,147 @@
 body {
   background-color: rgba(180,180,180,1);
 }
+
+body, header, section, article, aside, div, img, h1, h2, h3, h4, h5, h6, p, a, hr, ul, ol, li, table, tr, th, td, form, fieldset, legend, input
+{
+	color: black;
+    margin: 0;
+    padding: 0; 
+}
+
+#padder
+{
+	background-color: rgba(1, 19, 143, 1);
+	color: rgba(250,250,250,1);
+	clear: both;
+	height: auto;
+	min-height: 20px;
+    padding: 0.2em 0em 0.2em 1em;
+	width: 100%;
+}
+
+#padder p {
+    color: rgba(250,250,250,1);
+    margin-right: 1em;
+}
+
+#padder .right {
+    clear:both;
+    float: right;
+}
+
+#padder .container-fluid div[class*=col-] p a
+{
+	
+	background-position: center center;
+	background-repeat: no-repeat;
+    background-size: 20px 20px;
+    color: rgba(250,250,250,1);
+	margin: 0em 0.1em;
+	padding: 0.9em ;
+	width: auto;
+}
+
+#padder .container-fluid div[class*=col-] p a#fb
+{
+	background-image: url('../images/fb_black.png');
+}
+
+#padder .container-fluid div[class*=col-] p a#fb:hover
+{
+	background-image: url('../images/fb_gray.png');
+}
+
+#padder .container-fluid div[class*=col-] p a#tw
+{
+	background-image: url('../images/twt_black.png');
+}
+
+#padder .container-fluid div[class*=col-] p a#tw:hover
+{
+	background-image: url('../images/twt_gray.png');
+}
+
+#padder .container-fluid div[class*=col-] p a#lin
+{
+	background-image: url('../images/ldin_black.png');
+}
+
+#padder .container-fluid div[class*=col-] p a#lin:hover
+{
+	background-image: url('../images/ldin_gray.png');
+}
+
+#nav
+{
+	background-color: rgba(255,255,255,1);
+	border-bottom: 2px solid rgba(1,19,143,1);
+	color: rgba(0, 0, 40, 1);
+	height: auto;
+	min-height: 80px;
+	padding: 0em;
+	position: sticky;
+	top: 0em;
+	margin: 0em;
+	width: 100%;
+	z-index: 10;
+}
+
+#navbarSupportedContent {
+	margin-left: 0em;
+	margin-top: 1.2em;
+	width: 100%;
+}
+
+.navbar-brand {
+	width: 100%;
+}
+.navbar-brand img {
+	border-radius: 0.2em;
+	float: left;
+	margin: 0em 0.5em 0em 1.5em;
+}
+
+.navbar-brand h1 {
+	color: rgba(1, 19, 143, 1);
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.navbar-brand span {
+	color: rgba(99, 140, 255, 1);
+}
+
+#navbarSupportedContent ul a {
+	padding-left: 1em;
+	margin-left: 2.5em;
+}
+
  #indexWelcome li {
     margin-top: 2em;
     font-size: 1.2em;
   }
   
-  #indexWelcome h1 {
+   #indexWelcome h1 {
     margin-top: 1em;
   }
+  
+footer {
+	background-color: rgba(1, 19, 143, 1);
+}
+
+footer p {
+	color: rgba(255, 255, 255, 0.7);
+	margin-left: 1em; 
+}
+
+footer a {
+	color: rgba(99, 140, 255, 1);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	margin-right: 1.5em; 
+}
+  
 </style>
 </head>
 
