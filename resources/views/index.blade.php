@@ -25,6 +25,10 @@ body {
     margin-top: 2em;
     font-size: 1.2em;
   }
+  
+  #indexWelcome h1 {
+    margin-top: 1em;
+  }
 </style>
 </head>
 
