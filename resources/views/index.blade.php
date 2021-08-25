@@ -4,8 +4,8 @@
 
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Madoms Global Trade Nigeria Limited, info@mgtnigeria.com" />
-<meta name="keywords" content="mgt, madoms, madoms global,madoms global trade, global trade, trade" />
+<meta name="description" content="Restful CRUD API" />
+<meta name="keywords" content="Restful CRUD API" />
 <link href="css/fonts.css" rel="stylesheet" type="text/css" />
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
  <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
@@ -148,6 +148,7 @@ body, header, section, article, aside, div, img, h1, h2, h3, h4, h5, h6, p, a, h
   
 footer {
 	background-color: rgba(1, 19, 143, 1);
+    margin-top:10em;
 }
 
 footer p {
